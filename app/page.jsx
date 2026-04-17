@@ -3,7 +3,7 @@ export default function FPSOpticsLandingPage() {
     {
       title: "Optical System Design & Development",
       body:
-        "We develop optical systems from concept to prototype, with a strong focus on performance from the start.",
+        "Wew develop optical systems from concept to prototype, with a strong focus on performance from the start.",
     },
     {
       title: "System Analysis & Troubleshooting",
