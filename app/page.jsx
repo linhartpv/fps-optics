@@ -40,7 +40,7 @@ export default function FPSOpticsLandingPage() {
     "Independent technical audits",
   ];
 
-  const experience = ["Qualcomm", "ASML", "Teledyne", "KLA", "Onto Innovation"];
+  const experience = ["Q-E", "A-E", "T-E", "KLA", "O I-E"];
 
   return (
     <div className="min-h-screen bg-white text-slate-900">
