@@ -1,3 +1,4 @@
+import "./globals.css";
 export const metadata = {
   title: "FPS Optics",
   description: "Advanced Optical Engineering & Sensing",
