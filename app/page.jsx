@@ -1,5 +1,5 @@
 export default function FPSOpticsLandingPage() {
-  const services = [
+  const services = [ 
     {
       title: "Optical System Design & Development",
       body:
