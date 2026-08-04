@@ -474,7 +474,7 @@ export default function FPSOpticsLandingPage() {
                   PL
                 </div>
                 <div className="mt-2 text-xs uppercase tracking-[0.22em] text-slate-500">
-                  Optical engineering
+                  Optical systems
                 </div>
               </div>
             </div>
