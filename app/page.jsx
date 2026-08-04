@@ -33,28 +33,43 @@ export default function FPSOpticsLandingPage() {
 
   const expertise = [
     "Optical system design",
-    "Laser detection & sensing",
-    "High-speed optical measurements",
-    "Custom R&D and prototyping",
+    "Laser ranging & time-of-flight",
+    "High-speed optical detection",
+    "Camera, sensor & illumination integration",
     "Performance optimization",
     "Independent technical audits",
   ];
 
   const applications = [
+    "Semiconductor inspection & metrology",
+    "High-resolution traffic imaging",
+    "Laser ranging & time-of-flight",
     "Machine vision & optical inspection",
-    "Laser detection & sensing",
-    "High-speed measurement systems",
-    "Spectroscopy & spectral imaging",
-    "Automotive & defence sensing",
-    "Semiconductor & industrial instrumentation",
+    "High-speed optical detection",
+    "Custom industrial instrumentation",
   ];
 
-  const experience = [
-    "Semiconductor equipment",
-    "Automotive sensing",
-    "Industrial imaging",
-    "High-speed detection",
-    "Custom instrumentation",
+  const selectedExperience = [
+    {
+      title: "Semiconductor inspection & metrology",
+      body:
+        "Optical and detection development for demanding inspection and measurement systems, with emphasis on signal quality, achievable performance, and robust system integration.",
+    },
+    {
+      title: "High-performance imaging",
+      body:
+        "Camera and sensor-related development involving high-performance imaging technologies, optical architecture, sensor integration, and image-quality optimization.",
+    },
+    {
+      title: "High-resolution traffic cameras",
+      body:
+        "Optical design for traffic and enforcement imaging, including long-range resolution, performance across the field, low-light operation, and real-world environmental constraints.",
+    },
+    {
+      title: "Laser ranging & time-of-flight",
+      body:
+        "Experience with ranging architectures, optical power budgets, receiver sensitivity, high-speed detection, timing accuracy, SNR, and reliable operation in real-world conditions.",
+    },
   ];
 
   return (
@@ -91,9 +106,15 @@ export default function FPSOpticsLandingPage() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 md:text-xl">
-                First Principle Systems helps R&amp;D teams build new systems,
-                understand why existing ones underperform, and define the
-                fastest path to better performance.
+                First Principle Systems helps R&amp;D teams develop demanding
+                optical and detection systems, understand why existing designs
+                underperform, and define the fastest path to better performance.
+              </p>
+
+              <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-500">
+                Experience spans semiconductor inspection, high-resolution
+                imaging, laser ranging, high-speed detection, and custom
+                industrial instrumentation.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
@@ -365,32 +386,65 @@ export default function FPSOpticsLandingPage() {
 
       <section className="border-y border-slate-200 bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 md:py-24">
-          <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-start">
+          <div className="grid gap-10 md:grid-cols-[0.82fr_1.18fr] md:items-start">
             <div>
               <div className="text-sm font-semibold uppercase tracking-[0.22em] text-slate-500">
-                Experience
+                Selected experience
               </div>
 
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-                High-performance engineering background.
+                Experience behind demanding optical and detection systems.
               </h2>
 
               <p className="mt-5 max-w-xl text-base leading-8 text-slate-600">
-                Experience includes work on demanding systems in collaboration
-                with leading global technology, automotive, and semiconductor
-                organizations.
+                Project experience includes the development of optical,
+                imaging, and detection solutions for leading global technology
+                companies, together with custom systems for specialized
+                industrial applications.
+              </p>
+
+              <p className="mt-4 max-w-xl text-sm leading-7 text-slate-500">
+                Specific technical and project details remain confidential.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {experience.map((item) => (
-                <div
-                  key={item}
-                  className="rounded-2xl border border-slate-200 bg-white px-5 py-6 text-sm font-medium tracking-wide text-slate-700 shadow-sm"
-                >
-                  {item}
+            <div>
+              <div className="rounded-3xl bg-slate-950 p-7 text-white shadow-sm">
+                <div className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
+                  Project experience includes
                 </div>
-              ))}
+
+                <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-3 text-xl font-semibold tracking-tight md:text-2xl">
+                  <span>KLA</span>
+                  <span className="text-slate-600">/</span>
+                  <span>Teledyne DALSA</span>
+                  <span className="text-slate-600">/</span>
+                  <span>Qualcomm</span>
+                </div>
+
+                <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-300">
+                  Optical, imaging, and detection development across
+                  semiconductor inspection, high-performance camera systems,
+                  and advanced sensing applications.
+                </p>
+              </div>
+
+              <div className="mt-5 grid gap-4 sm:grid-cols-2">
+                {selectedExperience.map((item) => (
+                  <div
+                    key={item.title}
+                    className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+                  >
+                    <h3 className="text-lg font-semibold tracking-tight text-slate-900">
+                      {item.title}
+                    </h3>
+
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -417,26 +471,22 @@ export default function FPSOpticsLandingPage() {
               <div className="text-sm font-semibold uppercase tracking-[0.22em] text-slate-500">
                 Behind FPS
               </div>
-              {/*
+
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 Pavel Linhart
               </h2>
- */}
+
               <div className="mt-2 text-base font-medium text-slate-700">
                 Optical Systems Engineer
               </div>
 
               <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600">
                 The work is led by Pavel Linhart, with a background in optical
-                system development, high-speed detection, measurement systems,
-                and system-level performance analysis for demanding industrial
-                applications.
+                system development, semiconductor inspection, high-resolution
+                imaging, laser ranging, high-speed detection, and system-level
+                performance analysis for demanding industrial applications.
               </p>
 
-              {/*
-                Replace the URL below with your real LinkedIn profile,
-                or remove this link if you do not want to show it.
-              */}
               {/*
               <a
                 href="https://www.linkedin.com/in/your-profile"
