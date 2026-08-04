@@ -42,8 +42,10 @@ export default function FPSOpticsLandingPage() {
 
   const applications = [
     "Semiconductor inspection & metrology",
-    "High-resolution traffic imaging",
+    "Automotive imaging & sensing",
+    "Traffic & enforcement imaging",
     "Laser ranging & time-of-flight",
+    "Medical & scientific instrumentation",
     "Machine vision & optical inspection",
     "High-speed optical detection",
     "Custom industrial instrumentation",
@@ -56,19 +58,29 @@ export default function FPSOpticsLandingPage() {
         "Optical and detection development for demanding inspection and measurement systems, with emphasis on signal quality, achievable performance, and robust system integration.",
     },
     {
-      title: "High-performance imaging",
+      title: "Automotive imaging & sensing",
       body:
-        "Camera and sensor-related development involving high-performance imaging technologies, optical architecture, sensor integration, and image-quality optimization.",
+        "High-resolution optical and imaging systems for automotive applications, including image quality, sensor integration, field performance, environmental constraints, and system-level optimization.",
     },
     {
-      title: "High-resolution traffic cameras",
+      title: "Traffic & enforcement imaging",
       body:
-        "Optical design for traffic and enforcement imaging, including long-range resolution, performance across the field, low-light operation, and real-world environmental constraints.",
+        "Optical design for long-range, high-resolution traffic camera systems, including low-light performance, resolution across the field, identification reliability, and operation in real-world conditions.",
     },
     {
       title: "Laser ranging & time-of-flight",
       body:
-        "Experience with ranging architectures, optical power budgets, receiver sensitivity, high-speed detection, timing accuracy, SNR, and reliable operation in real-world conditions.",
+        "Ranging architectures, optical power budgets, receiver sensitivity, timing accuracy, high-speed detection, SNR, and reliable signal evaluation under real-world operating conditions.",
+    },
+    {
+      title: "Medical & scientific instrumentation",
+      body:
+        "Optical and detection solutions for specialized medical, laboratory, measurement, and scientific instrumentation, with attention to sensitivity, stability, calibration, and practical integration.",
+    },
+    {
+      title: "Custom industrial systems",
+      body:
+        "System architecture, prototyping, troubleshooting, and performance optimization for specialized industrial sensing, imaging, and measurement applications.",
     },
   ];
 
@@ -112,9 +124,9 @@ export default function FPSOpticsLandingPage() {
               </p>
 
               <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-500">
-                Experience spans semiconductor inspection, high-resolution
-                imaging, laser ranging, high-speed detection, and custom
-                industrial instrumentation.
+                Experience spans semiconductor inspection, automotive and
+                traffic imaging, medical and scientific instrumentation, laser
+                ranging, high-speed detection, and custom industrial systems.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
@@ -229,9 +241,10 @@ export default function FPSOpticsLandingPage() {
             </h2>
 
             <p className="mt-5 max-w-xl text-base leading-8 text-slate-600">
-              The work is especially relevant where system performance depends
-              on the interaction between optics, sensors, signal processing,
-              timing, calibration, and real-world operating conditions.
+              The work is especially relevant where performance depends on the
+              interaction between optics, sensors, illumination, signal
+              processing, timing, calibration, and real-world operating
+              conditions.
             </p>
           </div>
 
@@ -397,10 +410,9 @@ export default function FPSOpticsLandingPage() {
               </h2>
 
               <p className="mt-5 max-w-xl text-base leading-8 text-slate-600">
-                Project experience includes the development of optical,
-                imaging, and detection solutions for leading global technology
-                companies, together with custom systems for specialized
-                industrial applications.
+                Project experience includes optical, imaging, ranging, and
+                detection solutions across semiconductor, automotive, traffic,
+                medical, scientific, and specialized industrial applications.
               </p>
 
               <p className="mt-4 max-w-xl text-sm leading-7 text-slate-500">
@@ -423,9 +435,9 @@ export default function FPSOpticsLandingPage() {
                 </div>
 
                 <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-300">
-                  Optical, imaging, and detection development across
-                  semiconductor inspection, high-performance camera systems,
-                  and advanced sensing applications.
+                  Selected experience from optical, imaging, and detection
+                  development for advanced semiconductor, camera, sensing, and
+                  measurement applications.
                 </p>
               </div>
 
@@ -475,18 +487,18 @@ export default function FPSOpticsLandingPage() {
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 Pavel Linhart
               </h2>
-  
-      < div className="mt-2 text-base font-medium text-slate-700">
-          Optical Systems Architect
-      </div>
 
-      <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600">
-        The work is led by Pavel Linhart, whose background spans optical
-        system development, semiconductor inspection, high-resolution imaging
-        systems for the automotive industry, laser ranging, high-speed detection,
-        and system-level performance analysis for demanding industrial applications.
-      </p>
+              <div className="mt-2 text-base font-medium text-slate-700">
+                Optical Systems Architect
+              </div>
 
+              <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600">
+                The work is led by Pavel Linhart, an Optical Systems Architect
+                with experience across semiconductor inspection, automotive and
+                traffic imaging, medical and scientific instrumentation, laser
+                ranging, high-speed optical detection, and system-level
+                performance analysis.
+              </p>
 
               {/*
               <a
