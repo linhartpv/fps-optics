@@ -555,7 +555,7 @@ export default function FPSOpticsLandingPage() {
                 </div>
 
                 <div className="mt-1 text-sm text-slate-400">
-                  Optical Systems Engineer
+                  Optical Systems Architect
                 </div>
               </div>
             </div>
