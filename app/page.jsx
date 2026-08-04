@@ -417,11 +417,11 @@ export default function FPSOpticsLandingPage() {
               <div className="text-sm font-semibold uppercase tracking-[0.22em] text-slate-500">
                 Behind FPS
               </div>
-
+              {/*
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 Pavel Linhart
               </h2>
-
+ */}
               <div className="mt-2 text-base font-medium text-slate-700">
                 Optical Systems Engineer
               </div>
