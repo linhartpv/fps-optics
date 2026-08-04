@@ -406,7 +406,7 @@ export default function FPSOpticsLandingPage() {
               </div>
 
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-                Experience behind demanding optical and detection systems.
+                Experience across advanced optical and detection systems.
               </h2>
 
               <p className="mt-5 max-w-xl text-base leading-8 text-slate-600">
