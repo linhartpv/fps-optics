@@ -475,17 +475,18 @@ export default function FPSOpticsLandingPage() {
               <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
                 Pavel Linhart
               </h2>
+  
+      < div className="mt-2 text-base font-medium text-slate-700">
+          Optical Systems Architect
+      </div>
 
-              <div className="mt-2 text-base font-medium text-slate-700">
-                Optical Systems Engineer
-              </div>
+      <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600">
+        The work is led by Pavel Linhart, whose background spans optical
+        system development, semiconductor inspection, high-resolution imaging
+        systems for the automotive industry, laser ranging, high-speed detection,
+        and system-level performance analysis for demanding industrial applications.
+      </p>
 
-              <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600">
-                The work is led by Pavel Linhart, with a background in optical
-                system development, semiconductor inspection, high-resolution
-                imaging, laser ranging, high-speed detection, and system-level
-                performance analysis for demanding industrial applications.
-              </p>
 
               {/*
               <a
